@@ -1,0 +1,7 @@
+---
+title: "Course Notes"
+listing:
+    contents: meetings
+---
+
+These are the notes for our regular meetings.
