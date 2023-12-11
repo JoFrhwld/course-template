@@ -1,0 +1,19 @@
+### Week 10
+
+::: columns
+::: {.column width="50%"}
+
+Dates:
+
+:   
+:::
+
+::: {.column width="50%"}
+
+Topics:
+
+:   More
+:::
+:::
+
+#### Readings

@@ -1,0 +1,39 @@
+---
+title: "Course schedule"
+---
+
+{{< include weeks/_01_week1.qmd >}}
+
+{{< include weeks/_02_week2.qmd >}}
+
+{{< include weeks/_03_week3.qmd >}}
+
+{{< include weeks/_04_week4.qmd >}}
+
+{{< include weeks/_05_week5.qmd >}}
+
+{{< include weeks/_06_week6.qmd >}}
+
+{{< include weeks/_07_week7.qmd >}}
+
+{{< include weeks/_08_week8.qmd >}}
+
+{{< include weeks/_09_week9.qmd >}}
+
+------------------------------------------------------------------------
+
+##### Spring/Fall Break
+
+------------------------------------------------------------------------
+
+{{< include weeks/_10_week10.qmd >}}
+
+{{< include weeks/_11_week11.qmd >}}
+
+{{< include weeks/_12_week12.qmd >}}
+
+{{< include weeks/_13_week13.qmd >}}
+
+{{< include weeks/_14_week14.qmd >}}
+
+{{< include weeks/_15_week15.qmd >}}

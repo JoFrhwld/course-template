@@ -1,0 +1,263 @@
+---
+title: "COURSE NUMBER - COURSE TITLE"
+date: "Spring XXXX"
+date-modified: last-modified
+date-format: "MMMM YYYY"
+format: 
+  html: 
+    toc: true
+    number-sections: true
+    number-depth: 2
+  pdf:
+    output-file: "COURSE-NUMBER_syllabus.pdf"
+    number-sections: true
+    number-depth: 1
+    toc: true
+    toc-depth: 1
+    toc-title: "Sections"
+---
+
+## Key info
+
+::: {layout-ncol="2"}
+<div>
+
+### Key Info
+
+|          |     |
+|----------|-----|
+| Where:   |     |
+| When:    |     |
+| Prereq:  |     |
+| Credits: |     |
+
+</div>
+
+<div>
+
+### Instructor
+
+|                        |     |
+|------------------------|-----|
+|                        |     |
+| email:                 |     |
+| office hours:          |     |
+| office hours location: |     |
+
+</div>
+:::
+
+------------------------------------------------------------------------
+
+## Course at a Glance
+
+What you'll learn:
+
+:   THINGS
+
+What you'll do:
+
+:   ACTIVITIES
+
+What you'll need:
+
+:   TEXTBOOK, COMPUTER
+
+The final-est deadline
+
+:   NO LATE WORK DEADLINE
+
+Attendance Policy
+
+:   ATTENDANCE
+
+Late Work Policy
+
+:   DESCRIPTION: See [Late Submissions and Re-submissions]
+
+------------------------------------------------------------------------
+
+## Course Description
+
+DESCRIP
+
+### Other Info
+
+## Learning Outcomes
+
+After attending class meetings and completion of the coursework, students should be able to
+
+-   Describe ...
+-   Use ...
+-   Write ...
+-   Critically evaluate ...
+
+## Course Materials
+
+TEXTBOOK:
+
+:   BIBINFO
+
+## Course Technology
+
+### Canvas
+
+Canvas will be used to make course announcements, and to distribute assignment links.
+
+------------------------------------------------------------------------
+
+## Communications
+
+I will respond to emails in a timely manner during normal working hours, but it may take longer if you email me after 5pm on weekdays, or any time during the weekend.
+
+------------------------------------------------------------------------
+
+## Course Schedule
+
+The topics and readings listed here are the tentative schedule for the course. We may find, in the room, that some topics will take longer than initially scheduled.
+
+{{< include weeks/_01_week1.qmd >}}
+
+{{< include weeks/_02_week2.qmd >}}
+
+{{< include weeks/_03_week3.qmd >}}
+
+{{< include weeks/_04_week4.qmd >}}
+
+{{< include weeks/_05_week5.qmd >}}
+
+{{< include weeks/_06_week6.qmd >}}
+
+{{< include weeks/_07_week7.qmd >}}
+
+{{< include weeks/_08_week8.qmd >}}
+
+{{< include weeks/_09_week9.qmd >}}
+
+------------------------------------------------------------------------
+
+##### Spring/Fall Break
+
+------------------------------------------------------------------------
+
+{{< include weeks/_10_week10.qmd >}}
+
+{{< include weeks/_11_week11.qmd >}}
+
+{{< include weeks/_12_week12.qmd >}}
+
+{{< include weeks/_13_week13.qmd >}}
+
+{{< include weeks/_14_week14.qmd >}}
+
+{{< include weeks/_15_week15.qmd >}}
+
+## Course Evaluation
+
+::: {layout-ncol="2"}
+<div>
+
+### Grade Components
+
+|     |     |
+|-----|----:|
+| X   |  X% |
+| Y   |  Y% |
+| X   |  Z% |
+
+</div>
+
+<div>
+
+### Grading Scale
+
+|     |          |
+|-----|---------:|
+| A   |   \>= 90 |
+| B   | 80 to 89 |
+| C   | 70 to 79 |
+| D   | 60 to 69 |
+| E   |   \<= 59 |
+
+</div>
+:::
+
+### Assignment Submission
+
+HERE'S HOW
+
+### X
+
+### Y
+
+### Z
+
+## Late Submissions and Re-submissions
+
+FULL POLICY
+
+### Midterm Grades
+
+### The Final-est Deadline {#the-final-est-deadline}
+
+NO WORK ACCEPTED AFTER
+
+------------------------------------------------------------------------
+
+## Doing Coursework
+
+### Group Work Policy
+
+GROUP WORK POLICT
+
+### Large Language Model (a.k.a. AI) Usage
+
+LLM POLICY
+
+------------------------------------------------------------------------
+
+## Attendance and Engagement
+
+ATTENDANCE POLICY
+
+## Academic Conduct
+
+[UK Senate rules on academic offences](https://www.uky.edu/universitysenate/ao)
+
+Appropriating someone else's work and portraying it as your own is cheating. Collaborating with someone and portraying that work as solely your own is cheating. Obtaining answers to homework assignments or exams from previous semesters is cheating. Using an internet search engine to look up a question and reporting that answer as your own is cheating. Falsifying data or experimental results is cheating. If you are unsure about whether a specific action is cheating, you may check with me.
+
+The minimum penalty for a first offense is a zero on the assignment on which the offense occurred. If the offense is considered severe or if the student has other academic offenses on their record, more serious penalties, up to suspension from the University may be imposed.
+
+When students submit work purporting to be their own, but which in any way borrows ideas, organization, wording or anything else from another source without appropriate acknowledgement of the fact, the students are guilty of plagiarism. Plagiarism includes reproducing someone else's work, whether it be a published article, chapter of a book, a paper from a friend or some file, or something similar to this. Plagiarism also includes the practice of employing or allowing another person to alter or revise the work which a student submits as their own, whoever that other person may be.
+
+Students may discuss assignments among themselves or with an instructor or tutor, but when the actual work is done, it must be done by the student, and the student alone. When a student's assignment involves research in outside sources of information, the student must carefully acknowledge exactly what, where and how they employed them. If the words of someone else are used, the student must put quotation marks around the passage in question and add an appropriate indication of its origin. Making simple changes while leaving the organization, content and phraseology intact is plagiaristic. However, nothing in these Rules shall apply to those ideas which are so generally and freely circulated as to be a part of the public domain (University Senate Rules Section 6.3.1).
+
+------------------------------------------------------------------------
+
+## University Academic Policy Statements
+
+[Link to University Senate Academic Policy Statements](https://www.uky.edu/universitysenate/acadpolicy)
+
+{{< include policies/_absence.qmd >}}
+
+{{< include policies/_religious-observance.qmd >}}
+
+{{< include policies/_absence-verification.qmd >}}
+
+{{< include policies/_make-up-work.qmd >}}
+
+{{< include policies/_military-duties.qmd >}}
+
+{{< include policies/_unexcused-absence.qmd >}}
+
+{{< include policies/_prep-week.qmd >}}
+
+{{< include policies/_accommodations.qmd >}}
+
+{{< include policies/_title-ix.qmd >}}
+
+{{< include policies/_regular-interaction.qmd >}}
+
+## Diversity, Equity and Inclusion
+
+{{< include policies/_dei.qmd >}}

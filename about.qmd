@@ -2,8 +2,8 @@
 title: "About"
 ---
 
-About this site
+This is the website for COURSE, taught at the University of Kentucky, SEMESTER
 
-```{r}
-1 + 1
-```
+#### Attributions
+
+Any necessary attributions not included within course info.
