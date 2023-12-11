@@ -1,0 +1,13 @@
+---
+title: "course_template"
+---
+
+Welcome to the Course website. This course is being taught in the University of Kentucky's Linguistics Department in SEMESTRT
+
+If you are visiting on a mobile device, site navigation can be found under the "hamburger" at the top.
+
+## Next Steps
+
+-   Visit the Syllabus or Schedule page for information about readings and assignments
+
+-   Visit the course Notes page for course content
