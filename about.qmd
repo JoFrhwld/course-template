@@ -1,5 +1,6 @@
 ---
 title: "About"
+citation: false
 ---
 
 This is the website for COURSE, taught at the University of Kentucky, SEMESTER
