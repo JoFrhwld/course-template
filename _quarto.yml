@@ -1,21 +1,52 @@
 project:
   type: website
 
+license: CC-BY-SA 4.0
+author: 
+  name: Josef Fruehwald
+  
+execute: 
+  freeze: auto
+
 website:
   title: "course_template"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "Notes"
+        href: notes/index.qmd
+      - text: "About"
+        href: about.qmd
+  sidebar: 
+    - title: "Home"
+      logo: assets/logo.svg
+      contents:
+        - text: Home
+          href: index.qmd
+        - href: syllabus/syllabus.qmd
+          text: Syllabus
+        - href: syllabus/schedule.qmd
+          text: Schedule
+    - title: "Notes"
+      contents:
+        - text: Notes Home
+          href: notes/index.qmd
+        - section: Class Meetings
+          contents: 
+            - auto: notes/meetings/*
 
 format:
   html:
     theme: 
       light: [flatly, styles/light.scss]
-      dark: [darly, styles/dark.scss]
+      dark: [darkly, styles/dark.scss]
     css: styles/styles.css
     toc: true
+    fontsize: large
+    smooth-scroll: true
+    fig-cap-location: margin
+    citation: true    
 
 editor: visual
 
