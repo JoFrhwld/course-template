@@ -1,0 +1,5 @@
+---
+title: Page Not Found
+---
+
+You probably want to navigate [Home](index.qmd)
