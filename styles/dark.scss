@@ -2,11 +2,7 @@
 
 /*-- scss:rules --*/
 /*-- scss:rules --*/
-code:not(pre *){
-    color: $orange;
-    background-color: $gray-700;
-  }
-  
-.kbd{
-  color: $gray-700;
+
+.cell:not(.page-full):has(.cell-output){
+  background-color: $gray-100;
 }

@@ -39,8 +39,14 @@ website:
 format:
   html:
     theme: 
-      light: [flatly, styles/light.scss]
-      dark: [darkly, styles/dark.scss]
+      light: 
+        - flatly
+        - styles/custom.scss
+        - styles/light.scss
+      dark:
+        - flatly
+        - styles/custom.scss
+        - styles/light.scss    
     css: styles/styles.css
     toc: true
     fontsize: large

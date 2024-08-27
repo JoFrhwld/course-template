@@ -1,8 +1,11 @@
 /*-- scss:defaults --*/
 
 /*-- scss:rules --*/
-
 /*-- scss:rules --*/
+
 .cell:not(.page-full):has(.cell-output){
-    background-color: $gray-800;
-  }
+    padding: 2%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+ }
+ 
