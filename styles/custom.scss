@@ -1,7 +1,18 @@
-/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Lobster&display=swap');
+
+
+/* -- scss:mixins --*/
+
 
 /*-- scss:rules --*/
-/*-- scss:rules --*/
+
+:root {
+  --mermaid-label-fg-color: var(--body-color);
+}
+
+h1, h2, h3, h4, h5, h5 {
+  font-family: 'Comfortaa', Sans-Serif;
+}
 
 .cell:not(.page-full):has(.cell-output){
     padding: 2%;
@@ -9,3 +20,6 @@
     margin-bottom: 1em;
  }
  
+ .quarto-secondary-nav-title{
+   color: $gray-100;
+ }
