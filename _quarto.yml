@@ -9,9 +9,6 @@ execute:
 license: CC-BY 4.0
 author: 
   name: Josef Fruehwald
-  
-execute: 
-  freeze: auto
 
 website:
   # announcement: 
