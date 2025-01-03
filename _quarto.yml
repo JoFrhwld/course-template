@@ -1,5 +1,10 @@
 project:
   type: website
+  preview:
+    port: 7777
+
+execute: 
+  freeze: auto
 
 license: CC-BY 4.0
 author: 
@@ -9,7 +14,22 @@ execute:
   freeze: auto
 
 website:
+  # announcement: 
+  #   content: "**Coming up!** |" 
+  #   icon: box-arrow-right
+  #   position: below-navbar
+  #   dismissable: true
+  #   type: success
+  favicon: /assets/logo.svg
+  image:  /assets/logo.svg
   title: "course_template"
+  reader-mode: true
+  # site-url: https://lorg.github.io/
+  # repo-url: https://github.com/org/org.github.io
+  twitter-card: 
+    image: /assets/logo.svg
+  open-graph:
+    image: /assets/logo.svg
   navbar:
     left:
       - text: "Home"
@@ -20,7 +40,8 @@ website:
         href: about.qmd
   sidebar: 
     - title: "Home"
-      logo: assets/logo.svg
+      style: "docked"    
+      logo: assets/logo.svg    
       contents:
         - text: Home
           href: index.qmd
@@ -49,10 +70,20 @@ format:
         - styles/light.scss    
     css: styles/styles.css
     toc: true
+    grid:
+      body-width: 900px    
     fontsize: large
+    link-external-newwindow: true
+    mainfont: "Public Sans"
+    monofont: "Roboto Mono"
+    code-link: true
+    lightbox: true    
     smooth-scroll: true
     fig-cap-location: margin
-    citation: true    
+    citation: true
+    include-after-body:
+      text: |
+        <script type="application/javascript" src="/assets/darklight.js"></script>        
 
 editor: visual
 
