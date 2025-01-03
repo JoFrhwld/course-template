@@ -1,7 +1,21 @@
 ---
 title: "Course Notes"
+format:
+  html:
+    page-layout: full
 listing:
-    contents: meetings
+    type: grid
+    contents: 
+      - meetings
+      - in-class
+    sort: "date asc"
+    filter-ui: true
+    sort-ui: true
+    page-size: 50
+    fields: [image, date, title, categories]
+    exclude: 
+      categories: "support"
+    feed: true
 ---
 
 These are the notes for our regular meetings.
