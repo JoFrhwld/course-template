@@ -7,22 +7,24 @@ format:
   html: 
     toc: true
     number-sections: true
-    number-depth: 2
-  pdf:
-    output-file: "COURSE-NUMBER_syllabus.pdf"
-    number-sections: true
     number-depth: 1
+  typst:
+    output-file: "Course_syllabus.pdf"
+    section-numbering: 1.1.a
+    number-depth: 2
     toc: true
     toc-depth: 1
-    toc-title: "Sections"
 ---
 
-## Key info
+```{=typst}
+#show link: underline
+```
+# Key info
 
-::: {layout-ncol="2"}
+::::: {layout-ncol="2"}
 <div>
 
-### Key Info
+## Key Info
 
 |          |     |
 |----------|-----|
@@ -35,7 +37,7 @@ format:
 
 <div>
 
-### Instructor
+## Instructor
 
 |                        |     |
 |------------------------|-----|
@@ -45,11 +47,11 @@ format:
 | office hours location: |     |
 
 </div>
-:::
+:::::
 
 ------------------------------------------------------------------------
 
-## Course at a Glance
+# Course at a Glance
 
 What you'll learn:
 
@@ -73,17 +75,17 @@ Attendance Policy
 
 Late Work Policy
 
-:   DESCRIPTION: See [Late Submissions and Re-submissions]
+:   DESCRIPTION: See @sec-late-submissions-and-re-submissions
 
 ------------------------------------------------------------------------
 
-## Course Description
+# Course Description
 
 DESCRIP
 
 ### Other Info
 
-## Learning Outcomes
+# Learning Outcomes
 
 After attending class meetings and completion of the coursework, students should be able to
 
@@ -92,27 +94,27 @@ After attending class meetings and completion of the coursework, students should
 -   Write ...
 -   Critically evaluate ...
 
-## Course Materials
+# Course Materials
 
 TEXTBOOK:
 
 :   BIBINFO
 
-## Course Technology
+# Course Technology
 
-### Canvas
+## Canvas
 
 Canvas will be used to make course announcements, and to distribute assignment links.
 
 ------------------------------------------------------------------------
 
-## Communications
+# Communications
 
 I will respond to emails in a timely manner during normal working hours, but it may take longer if you email me after 5pm on weekdays, or any time during the weekend.
 
 ------------------------------------------------------------------------
 
-## Course Schedule
+# Course Schedule
 
 The topics and readings listed here are the tentative schedule for the course. We may find, in the room, that some topics will take longer than initially scheduled.
 
@@ -136,7 +138,7 @@ The topics and readings listed here are the tentative schedule for the course. W
 
 ------------------------------------------------------------------------
 
-##### Spring/Fall Break
+#### Spring/Fall Break
 
 ------------------------------------------------------------------------
 
@@ -152,12 +154,12 @@ The topics and readings listed here are the tentative schedule for the course. W
 
 {{< include weeks/_15_week15.qmd >}}
 
-## Course Evaluation
+# Course Evaluation
 
-::: {layout-ncol="2"}
+::::: {layout-ncol="2"}
 <div>
 
-### Grade Components
+## Grade Components
 
 |     |     |
 |-----|----:|
@@ -169,7 +171,7 @@ The topics and readings listed here are the tentative schedule for the course. W
 
 <div>
 
-### Grading Scale
+## Grading Scale
 
 |     |          |
 |-----|---------:|
@@ -180,9 +182,9 @@ The topics and readings listed here are the tentative schedule for the course. W
 | E   |   \<= 59 |
 
 </div>
-:::
+:::::
 
-### Assignment Submission
+## Assignment Submission
 
 HERE'S HOW
 
@@ -192,35 +194,35 @@ HERE'S HOW
 
 ### Z
 
-## Late Submissions and Re-submissions
+## Late Submissions and Re-submissions {#sec-late-submissions-and-re-submissions}
 
 FULL POLICY
 
-### Midterm Grades
+## Midterm Grades
 
-### The Final-est Deadline {#the-final-est-deadline}
+## The Final-est Deadline {#the-final-est-deadline}
 
 NO WORK ACCEPTED AFTER
 
 ------------------------------------------------------------------------
 
-## Doing Coursework
+# Doing Coursework
 
-### Group Work Policy
+## Group Work Policy
 
 GROUP WORK POLICT
 
-### Large Language Model (a.k.a. AI) Usage
+## Large Language Model (a.k.a. AI) Usage
 
 LLM POLICY
 
 ------------------------------------------------------------------------
 
-## Attendance and Engagement
+# Attendance and Engagement
 
 ATTENDANCE POLICY
 
-## Academic Conduct
+# Academic Conduct
 
 [UK Senate rules on academic offences](https://www.uky.edu/universitysenate/ao)
 
@@ -234,7 +236,7 @@ Students may discuss assignments among themselves or with an instructor or tutor
 
 ------------------------------------------------------------------------
 
-## University Academic Policy Statements
+# University Academic Policy Statements
 
 [Link to University Senate Academic Policy Statements](https://www.uky.edu/universitysenate/acadpolicy)
 
@@ -258,6 +260,6 @@ Students may discuss assignments among themselves or with an instructor or tutor
 
 {{< include policies/_regular-interaction.qmd >}}
 
-## Diversity, Equity and Inclusion
+# Diversity, Equity and Inclusion
 
 {{< include policies/_dei.qmd >}}
