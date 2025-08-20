@@ -1,0 +1,25 @@
+color:
+  palette:
+    black: "#1A1A1A"
+    white: "#F9F9F9"
+    red: "#CC6677"  
+    blue: "#4477AA"
+    green: "#117733"
+    yellow: "#DDCC77"
+  foreground: black
+  background: white
+  primary: blue
+  danger: red
+
+typography:
+  fonts:
+    - family: Public Sans
+      source: google
+    - family: Roboto Mono
+      source: google
+
+  base: Public Sans
+  headings:
+    family: Public Sans
+    weight: 400
+  monospace: Roboto Mono
